@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hotel Group</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .top-bar {
+      background: lawngreen;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .top-bar a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .hero {
+      position: relative;
+      background: url('/image/sam.jpg') no-repeat center center/cover;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+    }
+
+    .hero-text {
+      font-size: 30px;
+      font-weight: bold;
+      max-width: 400px;
+    }
+
+    .booking-form {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      width: 300px;
+      border-radius: 4px;
+      color: #000;
+    }
+
+    .booking-form h4 {
+      margin-bottom: 10px;
+    }
+
+    .booking-form select,
+    .booking-form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    .booking-form button {
+      width: 100%;
+      background: orange;
+      border: none;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 span {
+      color: #007acc;
+    }
+
+    .destinations {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .destination img {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+    }
+
+    .destination p {
+      margin-top: 8px;
+      font-weight: bold;
+    }
+
+    .testimonial {
+      background: #00457c;
+      color: white;
+      padding: 30px 20px;
+      font-style: italic;
+    }
+
+    .testimonial p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .testimonial cite {
+      display: block;
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    .footer {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div><strong>DI BTEC</strong> LEVEL 3</div>
+    <div><a href="Index.html">Home Page</a>
+      <a href="location.html">Contact Us</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-text">
+      STYLISHLY DESIGNED WITH YOUR COMFORT IN MIND
+    </div>
+    <div class="booking-form">
+      <h4>BOOK YOUR STAY</h4>
+      <p>Amedzofe Community.</p>
+      <select>
+        <option>Select A Hotel </option>
+        <option value="Chances Hotel">Chances Hotel</option>
+        <option value="Hotel Royal">Hotel Royal</option>
+        <option value="Volta Serene Hotel">Volta Serene Hotel</option>
+      </select>
+      <input type="date" placeholder="Arrival">
+      <input type="date" placeholder="Departure">
+      <input type="text" placeholder="Rooms | Adults | Children">
+      <button>CHECK AVAILABILITY</button>
+      <select>
+      <option value="Check">Your check is not available</option>
+    </select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Read through <span>Well,</span> Giving you the best information on Tafi Monkeys</h2>
+    <p style="max-width: 700px; margin: 20px auto;">
+        Tafi Monkey Sanctuary is a community-based ecotourism site located in the Volta Region of Ghana. It is home to hundreds of sacred Mona monkeys, which live in harmony with the local people. The sanctuary is a must-visit destination for nature lovers, wildlife enthusiasts, and those interested in cultural heritage.
+    </p>
+  </div>
+
+  <div class="section" style="background: #005A9C; color: white;">
+    <h2>Take Look<span> At The Monkeys</span></h2>
+    <div class="destinations">
+      <div class="destination">
+        <img src="/image/images (2).jpg" alt="Washington DC">
+        <p>loving them is key</p>
+      </div>
+      <div class="destination">
+        <img src="/image/images (3).jpg" alt="Prague">
+        <p>Get them banana</p>
+      </div>
+      <div class="destination">
+        <img src="/image/tm7 (1).jpg" alt="New York">
+        <p>Stay cool</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: center;">
+    <img src="/image/images (4).jpg" alt="Room" style="border-radius: 4px;">
+    <div style="max-width: 400px; text-align: left;">
+      <h3>History</h3>
+      <p>The Mona monkeys in Tafi-Atome are considered sacred by the Ewe people of the area.The sanctuary was established in 1996 as a conservation project to protect the monkeys and promote eco-tourism.The local community believes the monkeys are messengers of the gods, so they do not harm them.The initiative has provided income and development for the community through tourism.
+        The sanctuary is home to the Mona monkey (Cercopithecus mona), a species found in West Africa.These monkeys are playful, friendly, and used to human interaction.They live in small family groups and are seen swinging from trees or coming down to be fed.Visitors can feed the monkeys bananas, which they gently take from your hands.
+      </p>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <p>Best Time to Visit,Early morning (6 AM – 9 AM) or late afternoon (4 PM – 6 PM) for the best chance to see active monkeys.Dry season (November – March) offers easier hiking conditions.</p>
+    <cite>Gifty Sam Design</cite>
+  </div>
+
+  <div class="section" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: center;">
+    <div style="max-width: 400px; text-align: left;">
+      <h3>Activities to Do in Amedzofe</h3>
+      <p>Hiking to Mount Gemi and Ote Falls.  
+        Exploring the canopy walkway for an adrenaline rush.  
+        Photography the scenery is breathtaking.  
+        Learning about the town’s history at the old German missionary sites.  
+        Interacting with the locals and experiencing Ewe culture.  </p>
+    </div>
+    <img src="/image/Social-Tourist-Attraction.jpg" alt="Door Lock" style="border-radius: 4px;">
+  </div>
+  <div class="footer">
+    DI BTEC LEVEL 3 |&copy;  Copyright domainname.com. All Rights Reserved | Designed by:Gifty Afia Sam <a href="#"></a>
+    <a class="Home" href="index.html">Home</a>|
+<a href="about.html">About Us</a>|
+<a href="service.html">Read More</a>|
+<a href="contact.html">Location</a>
+ </div>
+</body>
+</html>
+ 
